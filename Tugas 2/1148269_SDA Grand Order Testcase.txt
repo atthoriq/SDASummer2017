@@ -1,0 +1,175 @@
+Teskes SDA Grand Order by Danin
+===================================================
+0 0 0 0 3 3
+#.#
+.M.
+...
+
+Output:
+Akhir petualangan Gudako
+Level Gudako: 1
+Level pahlawan:
+===================================================
+11 5 5 50 7 4
+Arturia Pendragon;50;100;pedang
+Amakusha;40;99;pedang
+Sishou;1;99;panah
+Atlanta;1;10;panah
+Emiye;25;10;panah
+Jyanu;22;100;pedang
+Hector;1;11;panah
+Hercules;51;10000;pedang
+Gilgamesh;1;9999;panah
+Cu;1;100;panah
+Kizuna;1000;1000;pedang
+5;2;Gilgamesh,Hercules
+3;2;Arturia Pendragon,Amakusha,Sishou
+1;3;Atlanta,Emiye,Jyanu,Hector
+7;2;Cu
+7;1;Kizuna
+4;2;1;1;panah;3
+2;2;25;1;panah;3
+2;1;40;3;pedang;4
+4;4;201;30;pedang;1
+1;1;10000;2;pedang;1000
+D.S#
+DD##
+#S##
+#D#D
+#S#.
+#M#.
+SS..
+
+Output: 
+5,2 tidak ada pahlawan yang ikut
+4,2 RUN, kekuatan maksimal sejumlah: 0
+3,2 Pahlawan yang ikut: Arturia Pendragon
+2,2 BATTLE, kekuatan: 50, pahlawan: Arturia Pendragon
+1,3 Pahlawan yang ikut: Jyanu,Hector,Atlanta,Emiye
+1,1 RUN, kekuatan maksimal sejumlah: 262
+2,1 BATTLE, kekuatan: 242, pahlawan: Arturia Pendragon,Jyanu,Hector,Atlanta
+7,2 Pahlawan yang ikut: Cu
+4,4 RUN, kekuatan maksimal sejumlah: 200
+7,1 tidak ada pahlawan yang ikut
+Akhir petualangan Gudako
+Level Gudako: 14
+Level pahlawan:
+Arturia Pendragon: 5
+Jyanu: 4
+Hector: 4
+Atlanta: 4
+Emiye: 1
+Cu: 1
+===================================================
+2 1 5 200 5 5
+Saber;50;100;pedang
+Archer;50;100;panah
+2;5;Archer,Saber
+1;3;299;10;pedang;2
+1;4;9999;1;panah;1000
+2;1;299;10;panah;2
+3;5;199;1;pedang;1
+5;4;201;5;pedang;1
+##DDM
+D#.#S
+.#.#D
+.#.#.
+...D.
+
+Output:
+2,5 Pahlawan yang ikut: Archer,Saber
+3,5 BATTLE, kekuatan: 200, pahlawan: Archer
+5,4 RUN, kekuatan maksimal sejumlah: 200
+1,3 BATTLE, kekuatan: 300, pahlawan: Archer,Saber
+1,4 RUN, kekuatan maksimal sejumlah: 150
+2,1 RUN, kekuatan maksimal sejumlah: 150
+Akhir petualangan Gudako
+Level Gudako: 22
+Level pahlawan:
+Archer: 12
+Saber: 11
+===================================================
+5 2 2 50 5 5
+Enru Saver;20;120;pedang
+Queen Riana;30;120;pedang
+Kuroneko;10;1000;panah
+Ikhlas Al-Ampas;10;999;panah
+p1scok;10;1001;panah
+1;4;Enru Saver,Queen Riana
+3;4;Kuroneko,Ikhlas Al-Ampas,p1scok
+2;5;1;80;pedang;1
+4;1;2400;160;pedang;2
+M..S.
+####D
+...S.
+D####
+.....
+
+Output:
+1,4 Pahlawan yang ikut: Enru Saver,Queen Riana
+2,5 BATTLE, kekuatan: 120, pahlawan: Enru Saver
+3,4 Pahlawan yang ikut: p1scok,Kuroneko,Ikhlas Al-Ampas
+4,1 BATTLE, kekuatan: 4002, pahlawan: p1scok,Kuroneko
+Akhir petualangan Gudako
+Level Gudako: 401
+Level pahlawan:
+p1scok: 161
+Kuroneko: 161
+Enru Saver: 81
+Queen Riana: 1
+Ikhlas Al-Ampas: 1
+===================================================
+2 2 0 1000 13 13
+Second;1000;120;pedang
+First;1000;1000;panah
+11;3;Second
+1;13;First
+############S
+############.
+############.
+############.
+############.
+############.
+############.
+############.
+############.
+############.
+##S#########.
+##.#########.
+##..........M
+
+Output:
+1,13 Pahlawan yang ikut: First
+11,3 Pahlawan yang ikut: Second
+Akhir petualangan Gudako
+Level Gudako: 1
+Level pahlawan:
+First: 1
+Second: 1
+===================================================-
+(this one works only if your program treats non-normal input for the map as passable areas (same as '.'))
+4 4 0 1 3 20
+JUST MONIKA;1;1;panah
+JuSt MoNiKa;1;1;panah
+J sT M nK K;1;1;panah
+jjjj jjjMon;1;1;panah
+1;3;JUST MONIKA
+3;3;JuSt MoNiKa
+1;13;J sT M nK K
+3;13;jjjj jjjMon
+JUSTMONIKAJUST#ONIKA
+##............######
+JUST#ONIKAJUST#ONIKA
+
+Output:
+1,13 Pahlawan yang ikut: J sT M nK K
+3,13 Pahlawan yang ikut: jjjj jjjMon
+1,3 Pahlawan yang ikut: JUST MONIKA
+3,3 Pahlawan yang ikut: JuSt MoNiKa
+Akhir petualangan Gudako
+Level Gudako: 1
+Level pahlawan:
+J sT M nK K: 1
+jjjj jjjMon: 1
+JUST MONIKA: 1
+JuSt MoNiKa: 1

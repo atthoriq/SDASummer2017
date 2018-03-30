@@ -1,0 +1,100 @@
+add folderA root
+add folderB root
+add folderD folderA
+add folderE folderA
+add folderF root
+add folderG root
+add folderC root
+insert al.exe 1 folderE
+insert al.exe 2 folderB
+insert el.exe 2 folderC
+print root
+search folderE
+insert dul.3gp 55 folderE
+insert z.3gp 55 folderE
+insert a.3gp 3 folderD
+print root
+
+TESTCASE LUQI
+add a root
+add b a
+insert ancol.ancol 5 b
+insert ea.ancol 3 b
+insert kastreh.ancol 120 b
+add c a
+add d b
+add e b
+insert ancol.ancol 4 d
+insert ancol.dufan 5 d
+add f root
+add g f
+add h f
+add i g
+add j g
+insert ancol.kontingen 5 i
+insert ancol.ancol 5 i
+insert ancol.ayam 5 root
+insert ancol.kate 5 root
+insert ancol.ayamkate 5 root
+print root
+remove b
+search c
+print root
+remove ancol
+print root
+
+output:
+ancol.ancol added to b
+ea.ancol added to b
+kastreh.ancol added to b
+ancol.ancol added to d
+ancol.dufan added to e
+ancol.kontingen added to i
+ancol.ancol added to j
+ancol.ayam added to c
+ancol.kate added to h
+> root 168
+  > a 147
+    > b 140
+      > d 133
+        > ancol.ancol 4
+        > ancol.ancol 5
+        > ea.ancol 3
+        > kastreh.ancol 120
+      > e 6
+        > ancol.dufan 5
+    > c 6
+      > ancol.ayam 5
+  > f 20
+    > g 13
+      > i 6
+        > ancol.kontingen 5
+      > j 6
+        > ancol.ancol 5
+    > h 6
+      > ancol.kate 5
+Folder b removed
+> root
+  > a
+    > c
+> root 28
+  > a 7
+    > c 6
+      > ancol.ayam 5
+  > f 20
+    > g 13
+      > i 6
+        > ancol.kontingen 5
+      > j 6
+        > ancol.ancol 5
+    > h 6
+      > ancol.kate 5
+4 File ancol removed
+> root 8
+  > a 2
+    > c 1
+  > f 5
+    > g 3
+      > i 1
+      > j 1
+    > h 1

@@ -1,0 +1,65 @@
+add folderA root 
+add folderB root 
+add folderC root 
+add folderD root 
+add folderE folderA 
+add folderF folderB 
+add folderG folderA 
+insert ittoryuu.exe 1 folderE 
+insert nitoryuu.exe 2 folderB 
+insert santoryuu.exe 2 folderC 
+insert gomuGomu.docx 3 folderC 
+insert mochiMochi.pptx 4 folderC 
+add folderH folderE 
+add folderI folderD 
+print root 
+insert ameAme.xlsx 5 root
+insert meraMera.aptx 6 root 
+insert doraDora.www 5 folderE 
+insert ukaUka.hms 2 folderE 
+insert hitoHito.www 4 folderH 
+insert yamiYami.sen 3 folderH 
+print folderD 
+search ukaUka 
+remove folderG 
+remove folderH 
+insert darkMagician.xlsx 3 folderE 
+search darkMagician 
+add folderJ folderE 
+print folderE
+
+
+output Rafie:
+ittoryuu.exe added to folderE
+nitoryuu.exe added to folderF
+santoryuu.exe added to folderC
+gomuGomu.docx added to folderD
+mochiMochi.pptx added to folderG
+> root 22
+  > folderA 9
+    > folderE 3
+      > folderH 2
+        > ittoryuu.exe 1
+    > folderG 5
+      > mochiMochi.pptx 4
+  > folderB 4
+    > folderF 3
+      > nitoryuu.exe 2
+  > folderC 3
+    > santoryuu.exe 2
+  > folderD 5
+    > folderI 4
+      > gomuGomu.docx 3
+> folderD 5
+  > folderI 4
+    > gomuGomu.docx 3
+Folder folderG removed
+Folder folderH removed
+darkMagician.xlsx added to folderE
+> root
+  > folderA
+    > folderE
+      > darkMagician.xlsx
+> folderE 5
+  > folderJ 4
+    > darkMagician.xlsx 3
